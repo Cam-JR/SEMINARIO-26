@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppSQL.Listados.Listado_Vendedores">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Nuevo" Priority="0" Clicked="ToolbarItem_Clicked"  Order="Primary" />
+    </ContentPage.ToolbarItems>
+    
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="White" Margin="20" >
+
+            <Label Text="Vendedores" 
+                   FontSize="18"
+                   HorizontalOptions="Center"
+                   />
+            
+            <ListView x:Name="lvVendedores" ItemSelected="lvVendedores_ItemSelected" HasUnevenRows="True" 
+                      Margin="0,20,0,10" >
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell >
+                                                        
+                            <Frame BackgroundColor="Beige" Padding="8" 
+                                   IsClippedToBounds="False"
+                                   Margin="10,10,10,10"
+                                   CornerRadius="5" >
+                                <StackLayout>
+                                    <Grid>
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="*" ></ColumnDefinition>
+                                            <ColumnDefinition Width="3*"></ColumnDefinition>
+                                        </Grid.ColumnDefinitions>
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition></RowDefinition>
+                                            <RowDefinition></RowDefinition>
+                                            <RowDefinition></RowDefinition>
+                                            <RowDefinition></RowDefinition>
+                                            <RowDefinition></RowDefinition>
+                                        </Grid.RowDefinitions>
+                                                                        
+                                        <Label Text="Id" Grid.Row="0" Grid.Column="0"></Label>
+                                        <Label Text="{Binding id}" Grid.Row="0" Grid.Column="1" TextColor="#8C5A11" FontSize="14"/>
+                                        
+                                        <Label Text="DNI" Grid.Row="1" Grid.Column="0"></Label>
+                                        <Label Text="{Binding dni}" Grid.Row="1" Grid.Column="1" TextColor="#8C5A11" FontSize="14"/>
+                                        
+                                        <Label Text="Nombres" Grid.Row="2" Grid.Column="0"></Label>
+                                        <Label Text="{Binding nom}" Grid.Row="2" Grid.Column="1" TextColor="#8C5A11" FontSize="14"/>
+                                        
+                                        <Label Text="Apellidos" Grid.Row="3" Grid.Column="0"></Label>
+                                        <Label Text="{Binding ape}" Grid.Row="3" Grid.Column="1" TextColor="#8C5A11" FontSize="14"/>
+                                        
+                                        <Label Text="Distrito" Grid.Row="4" Grid.Column="0"></Label>
+                                        <Label Text="{Binding nom_dis}" Grid.Row="4" Grid.Column="1" TextColor="#8C5A11" FontSize="14"/>
+
+                                    </Grid>
+                                </StackLayout>
+                            </Frame>
+                            
+                            
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

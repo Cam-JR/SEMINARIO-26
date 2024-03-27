@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppSQL.Listados.Listado_Tipos"
+             Title="Listado Tipos">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="White" Margin="20" >
+            
+            <Label Text="Tipos de Café" 
+                   FontSize="18"
+                   HorizontalOptions="Center"
+                   />
+            <Image Source="cafe.png" />
+            
+            <ListView x:Name="lvTipos" ItemSelected="lvTipos_ItemSelected" HasUnevenRows="True" 
+                      Margin="0,20,0,10" 
+                      BackgroundColor="Beige">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell >
+
+                            <StackLayout VerticalOptions="FillAndExpand" 
+                                         HorizontalOptions="FillAndExpand" Padding="20" Spacing="20">
+                                <StackLayout Orientation="Horizontal" Spacing="20" >
+                                    <Image Source="{Binding img}" HeightRequest="60" WidthRequest="60"
+                                            Aspect="AspectFit"
+                                            HorizontalOptions="Start"
+                                    />
+                                    <StackLayout Spacing="10">
+                                        <Label Text="{Binding id}" TextColor="#8C5A11" FontSize="14"/>
+                                        <Label Text="{Binding nom}" TextColor="#8C5A11" FontSize="14"/>
+                                        <Label Text="{Binding des}" TextColor="#8C5A11" FontSize="14"/>
+                                    </StackLayout>
+                                </StackLayout>
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+            
+        </StackLayout>
+    </ContentPage.Content> 
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Nuevo" Priority="0" Clicked="btnNuevo_Clicked"  Order="Primary" />
+    </ContentPage.ToolbarItems>
+
+
+</ContentPage>

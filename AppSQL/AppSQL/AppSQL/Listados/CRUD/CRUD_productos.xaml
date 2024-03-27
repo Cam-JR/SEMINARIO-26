@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppSQL.Listados.CRUD_productos"
+             Title="Formulario">
+
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Spacing="20" Padding="20">
+                <Label Text="PRODUCTO"
+                   Margin="20,20,20,20"
+                   HorizontalOptions="Center"
+                   FontSize="Medium"
+                   TextColor="Black"
+                   />
+                <Image Source="cafe.png" />
+                <StackLayout>
+                    <!--NOMBRE DE PRODUCTO-->
+                    <Label Text="Producto"
+                       FontAttributes="Bold"  
+                        />
+                    <Entry x:Name="txtnombre" Text="{Binding nom, Mode=TwoWay}" Placeholder="Ingrese el nombre" />
+
+                    <!--TIPOS DE CAFÉ-->
+                    <Label Text="Tipo Café"
+                          FontAttributes="Bold"                       
+                            />
+                    <Picker x:Name="pk_tipocafe"
+                         SelectedItem="{Binding nom_tipo, Mode=TwoWay}"
+                             /> 
+
+                    <!--PRECIO DEL PRODUCTO-->
+                    <Label Text="Precio"
+                         FontAttributes="Bold"
+                            Margin="0,10"
+                          />
+                    <Entry x:Name="txtprecio" Text="{Binding pre_pro, StringFormat='Precio: S/ {0}'}"  Placeholder="Ingrese tipo de producto" Keyboard="Numeric" />
+
+                    <!--NOMBRE DEL TIPO PRODUCTO-->
+                    <Label Text="Tipo"
+                         FontAttributes="Bold"
+                            Margin="0,10"
+                          />
+                    <Entry x:Name="txtnompro" Text="{Binding nom_tipo, Mode=TwoWay}" Placeholder="Ingrese el nombre del producto" />
+
+                    <!-- PRODUCTOR-->
+                    <Label Text="Productor"
+                        FontAttributes="Bold"                       
+                     />
+                    <Picker x:Name="pk_productor"
+                        SelectedItem="{Binding nom_productor, Mode=TwoWay}"
+                     /> 
+
+                    <!--URL IMAGE-->
+                    <Label Text="URL de imagen"
+                       FontAttributes="Bold"
+                        Margin="0,10"
+                        />
+                    <Entry x:Name="txtURL" Text="{Binding img, Mode=TwoWay}" Placeholder="Ingrese nombre de café" />
+
+                    <!--ESTADO-->
+                    <Label Text="Estado"
+                        FontAttributes="Bold"                       
+                        />
+                    <Picker x:Name="pk_estado"
+                        SelectedItem="{Binding estado, Mode=TwoWay}"
+                        />
+
+                </StackLayout>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Guardar" Priority="0" Clicked="btnGuardar_Clicked"  Order="Primary" />
+        <ToolbarItem Text="Eliminar" Priority="1" Clicked="btnEliminar_Clicked"  Order="Primary" />
+    </ContentPage.ToolbarItems>
+</ContentPage>

@@ -1,0 +1,109 @@
+C:\Users\Remigio\source\repos\AppSQL\AppSQL\AppSQL\bin\Debug\netstandard2.0\AppSQL.deps.json
+C:\Users\Remigio\source\repos\AppSQL\AppSQL\AppSQL\bin\Debug\netstandard2.0\AppSQL.dll
+C:\Users\Remigio\source\repos\AppSQL\AppSQL\AppSQL\bin\Debug\netstandard2.0\ref\AppSQL.dll
+C:\Users\Remigio\source\repos\AppSQL\AppSQL\AppSQL\bin\Debug\netstandard2.0\AppSQL.pdb
+C:\Users\Remigio\source\repos\AppSQL\AppSQL\AppSQL\obj\Debug\netstandard2.0\AppSQL.csproj.AssemblyReference.cache
+C:\Users\Remigio\source\repos\AppSQL\AppSQL\AppSQL\obj\Debug\netstandard2.0\AppSQL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Remigio\source\repos\AppSQL\AppSQL\AppSQL\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Remigio\source\repos\AppSQL\AppSQL\AppSQL\obj\Debug\netstandard2.0\Listados\Listado_Tipos.xaml.g.cs
+C:\Users\Remigio\source\repos\AppSQL\AppSQL\AppSQL\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Remigio\source\repos\AppSQL\AppSQL\AppSQL\obj\Debug\netstandard2.0\AppSQL.AssemblyInfoInputs.cache
+C:\Users\Remigio\source\repos\AppSQL\AppSQL\AppSQL\obj\Debug\netstandard2.0\AppSQL.AssemblyInfo.cs
+C:\Users\Remigio\source\repos\AppSQL\AppSQL\AppSQL\obj\Debug\netstandard2.0\AppSQL.csproj.CoreCompileInputs.cache
+C:\Users\Remigio\source\repos\AppSQL\AppSQL\AppSQL\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Remigio\source\repos\AppSQL\AppSQL\AppSQL\obj\Debug\netstandard2.0\AppSQL.dll
+C:\Users\Remigio\source\repos\AppSQL\AppSQL\AppSQL\obj\Debug\netstandard2.0\refint\AppSQL.dll
+C:\Users\Remigio\source\repos\AppSQL\AppSQL\AppSQL\obj\Debug\netstandard2.0\AppSQL.pdb
+C:\Users\Remigio\source\repos\AppSQL\AppSQL\AppSQL\obj\Debug\netstandard2.0\Listados\CRUD_tipos.xaml.g.cs
+C:\Users\Remigio\source\repos\AppSQL\AppSQL\AppSQL\obj\Debug\netstandard2.0\Listados\CRUD_vendedores.xaml.g.cs
+C:\Users\Remigio\source\repos\AppSQL\AppSQL\AppSQL\obj\Debug\netstandard2.0\Listados\Listado_Vendedores.xaml.g.cs
+C:\Users\Jimen\Downloads\AppSQL 3\AppSQL\AppSQL\AppSQL\bin\Debug\netstandard2.0\AppSQL.deps.json
+C:\Users\Jimen\Downloads\AppSQL 3\AppSQL\AppSQL\AppSQL\bin\Debug\netstandard2.0\AppSQL.dll
+C:\Users\Jimen\Downloads\AppSQL 3\AppSQL\AppSQL\AppSQL\bin\Debug\netstandard2.0\ref\AppSQL.dll
+C:\Users\Jimen\Downloads\AppSQL 3\AppSQL\AppSQL\AppSQL\bin\Debug\netstandard2.0\AppSQL.pdb
+C:\Users\Jimen\Downloads\AppSQL 3\AppSQL\AppSQL\AppSQL\obj\Debug\netstandard2.0\AppSQL.csproj.AssemblyReference.cache
+C:\Users\Jimen\Downloads\AppSQL 3\AppSQL\AppSQL\AppSQL\obj\Debug\netstandard2.0\AppSQL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jimen\Downloads\AppSQL 3\AppSQL\AppSQL\AppSQL\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Jimen\Downloads\AppSQL 3\AppSQL\AppSQL\AppSQL\obj\Debug\netstandard2.0\Listados\CRUD_tipos.xaml.g.cs
+C:\Users\Jimen\Downloads\AppSQL 3\AppSQL\AppSQL\AppSQL\obj\Debug\netstandard2.0\Listados\CRUD_vendedores.xaml.g.cs
+C:\Users\Jimen\Downloads\AppSQL 3\AppSQL\AppSQL\AppSQL\obj\Debug\netstandard2.0\Listados\Listado_Tipos.xaml.g.cs
+C:\Users\Jimen\Downloads\AppSQL 3\AppSQL\AppSQL\AppSQL\obj\Debug\netstandard2.0\Listados\Listado_Vendedores.xaml.g.cs
+C:\Users\Jimen\Downloads\AppSQL 3\AppSQL\AppSQL\AppSQL\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Jimen\Downloads\AppSQL 3\AppSQL\AppSQL\AppSQL\obj\Debug\netstandard2.0\AppSQL.AssemblyInfoInputs.cache
+C:\Users\Jimen\Downloads\AppSQL 3\AppSQL\AppSQL\AppSQL\obj\Debug\netstandard2.0\AppSQL.AssemblyInfo.cs
+C:\Users\Jimen\Downloads\AppSQL 3\AppSQL\AppSQL\AppSQL\obj\Debug\netstandard2.0\AppSQL.csproj.CoreCompileInputs.cache
+C:\Users\Jimen\Downloads\AppSQL 3\AppSQL\AppSQL\AppSQL\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Jimen\Downloads\AppSQL 3\AppSQL\AppSQL\AppSQL\obj\Debug\netstandard2.0\AppSQL.dll
+C:\Users\Jimen\Downloads\AppSQL 3\AppSQL\AppSQL\AppSQL\obj\Debug\netstandard2.0\refint\AppSQL.dll
+C:\Users\Jimen\Downloads\AppSQL 3\AppSQL\AppSQL\AppSQL\obj\Debug\netstandard2.0\AppSQL.pdb
+C:\Users\Jimen\Downloads\SEMINARIO25\AppSQL\AppSQL\AppSQL\bin\Debug\netstandard2.0\AppSQL.deps.json
+C:\Users\Jimen\Downloads\SEMINARIO25\AppSQL\AppSQL\AppSQL\bin\Debug\netstandard2.0\AppSQL.dll
+C:\Users\Jimen\Downloads\SEMINARIO25\AppSQL\AppSQL\AppSQL\bin\Debug\netstandard2.0\ref\AppSQL.dll
+C:\Users\Jimen\Downloads\SEMINARIO25\AppSQL\AppSQL\AppSQL\bin\Debug\netstandard2.0\AppSQL.pdb
+C:\Users\Jimen\Downloads\SEMINARIO25\AppSQL\AppSQL\AppSQL\obj\Debug\netstandard2.0\AppSQL.csproj.AssemblyReference.cache
+C:\Users\Jimen\Downloads\SEMINARIO25\AppSQL\AppSQL\AppSQL\obj\Debug\netstandard2.0\AppSQL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jimen\Downloads\SEMINARIO25\AppSQL\AppSQL\AppSQL\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Jimen\Downloads\SEMINARIO25\AppSQL\AppSQL\AppSQL\obj\Debug\netstandard2.0\Listados\CRUD_tipos.xaml.g.cs
+C:\Users\Jimen\Downloads\SEMINARIO25\AppSQL\AppSQL\AppSQL\obj\Debug\netstandard2.0\Listados\CRUD_vendedores.xaml.g.cs
+C:\Users\Jimen\Downloads\SEMINARIO25\AppSQL\AppSQL\AppSQL\obj\Debug\netstandard2.0\Listados\Listado_Tipos.xaml.g.cs
+C:\Users\Jimen\Downloads\SEMINARIO25\AppSQL\AppSQL\AppSQL\obj\Debug\netstandard2.0\Listados\Listado_Vendedores.xaml.g.cs
+C:\Users\Jimen\Downloads\SEMINARIO25\AppSQL\AppSQL\AppSQL\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Jimen\Downloads\SEMINARIO25\AppSQL\AppSQL\AppSQL\obj\Debug\netstandard2.0\AppSQL.AssemblyInfoInputs.cache
+C:\Users\Jimen\Downloads\SEMINARIO25\AppSQL\AppSQL\AppSQL\obj\Debug\netstandard2.0\AppSQL.AssemblyInfo.cs
+C:\Users\Jimen\Downloads\SEMINARIO25\AppSQL\AppSQL\AppSQL\obj\Debug\netstandard2.0\AppSQL.csproj.CoreCompileInputs.cache
+C:\Users\Jimen\Downloads\SEMINARIO25\AppSQL\AppSQL\AppSQL\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Jimen\Downloads\SEMINARIO25\AppSQL\AppSQL\AppSQL\obj\Debug\netstandard2.0\AppSQL.dll
+C:\Users\Jimen\Downloads\SEMINARIO25\AppSQL\AppSQL\AppSQL\obj\Debug\netstandard2.0\refint\AppSQL.dll
+C:\Users\Jimen\Downloads\SEMINARIO25\AppSQL\AppSQL\AppSQL\obj\Debug\netstandard2.0\AppSQL.pdb
+C:\Users\Jimen\Downloads\SEMINARIO25\AppSQL\AppSQL\AppSQL\obj\Debug\netstandard2.0\Listados\CRUD_productos.xaml.g.cs
+C:\Users\Jimen\Downloads\SEMINARIO25\AppSQL\AppSQL\AppSQL\obj\Debug\netstandard2.0\Listados\CRUD_predidosventa.xaml.g.cs
+C:\Users\Jimen\Downloads\SEMINARIO25\AppSQL\AppSQL\AppSQL\obj\Debug\netstandard2.0\Listados\Listado_PedidosVenta.xaml.g.cs
+C:\Users\Jimen\Downloads\SEMINARIO25\AppSQL\AppSQL\AppSQL\obj\Debug\netstandard2.0\Listados\Listado_Productos.xaml.g.cs
+C:\Users\Jimen\Downloads\COPIA - SEMINARIO 25\AppSQL\AppSQL\AppSQL\obj\Debug\netstandard2.0\AppSQL.csproj.AssemblyReference.cache
+C:\Users\Jimen\Downloads\COPIA - SEMINARIO 25\AppSQL\AppSQL\AppSQL\obj\Debug\netstandard2.0\AppSQL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jimen\Downloads\COPIA - SEMINARIO 25\AppSQL\AppSQL\AppSQL\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Jimen\Downloads\COPIA - SEMINARIO 25\AppSQL\AppSQL\AppSQL\obj\Debug\netstandard2.0\Listados\Listado_PedidosVenta.xaml.g.cs
+C:\Users\Jimen\Downloads\COPIA - SEMINARIO 25\AppSQL\AppSQL\AppSQL\obj\Debug\netstandard2.0\Listados\Listado_Productos.xaml.g.cs
+C:\Users\Jimen\Downloads\COPIA - SEMINARIO 25\AppSQL\AppSQL\AppSQL\obj\Debug\netstandard2.0\Listados\Listado_Tipos.xaml.g.cs
+C:\Users\Jimen\Downloads\COPIA - SEMINARIO 25\AppSQL\AppSQL\AppSQL\obj\Debug\netstandard2.0\Listados\Listado_Vendedores.xaml.g.cs
+C:\Users\Jimen\Downloads\COPIA - SEMINARIO 25\AppSQL\AppSQL\AppSQL\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Jimen\Downloads\COPIA - SEMINARIO 25\AppSQL\AppSQL\AppSQL\obj\Debug\netstandard2.0\AppSQL.AssemblyInfoInputs.cache
+C:\Users\Jimen\Downloads\COPIA - SEMINARIO 25\AppSQL\AppSQL\AppSQL\obj\Debug\netstandard2.0\AppSQL.AssemblyInfo.cs
+C:\Users\Jimen\Downloads\COPIA - SEMINARIO 25\AppSQL\AppSQL\AppSQL\obj\Debug\netstandard2.0\AppSQL.csproj.CoreCompileInputs.cache
+C:\Users\Jimen\Downloads\COPIA - SEMINARIO 25\AppSQL\AppSQL\AppSQL\obj\Debug\netstandard2.0\AppSQL.dll
+C:\Users\Jimen\Downloads\COPIA - SEMINARIO 25\AppSQL\AppSQL\AppSQL\obj\Debug\netstandard2.0\refint\AppSQL.dll
+C:\Users\Jimen\Downloads\COPIA - SEMINARIO 25\AppSQL\AppSQL\AppSQL\obj\Debug\netstandard2.0\AppSQL.pdb
+C:\Users\Jimen\Downloads\COPIA - SEMINARIO 25\AppSQL\AppSQL\AppSQL\bin\Debug\netstandard2.0\AppSQL.deps.json
+C:\Users\Jimen\Downloads\COPIA - SEMINARIO 25\AppSQL\AppSQL\AppSQL\bin\Debug\netstandard2.0\AppSQL.dll
+C:\Users\Jimen\Downloads\COPIA - SEMINARIO 25\AppSQL\AppSQL\AppSQL\bin\Debug\netstandard2.0\ref\AppSQL.dll
+C:\Users\Jimen\Downloads\COPIA - SEMINARIO 25\AppSQL\AppSQL\AppSQL\bin\Debug\netstandard2.0\AppSQL.pdb
+C:\Users\Jimen\Downloads\COPIA - SEMINARIO 25\AppSQL\AppSQL\AppSQL\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Jimen\Downloads\COPIA - SEMINARIO 25\AppSQL\AppSQL\AppSQL\obj\Debug\netstandard2.0\Listados\CRUD\CRUD_predidosventa.xaml.g.cs
+C:\Users\Jimen\Downloads\COPIA - SEMINARIO 25\AppSQL\AppSQL\AppSQL\obj\Debug\netstandard2.0\Listados\CRUD\CRUD_productos.xaml.g.cs
+C:\Users\Jimen\Downloads\COPIA - SEMINARIO 25\AppSQL\AppSQL\AppSQL\obj\Debug\netstandard2.0\Listados\CRUD\CRUD_tipos.xaml.g.cs
+C:\Users\Jimen\Downloads\COPIA - SEMINARIO 25\AppSQL\AppSQL\AppSQL\obj\Debug\netstandard2.0\Listados\CRUD\CRUD_vendedores.xaml.g.cs
+C:\Users\Jimen\Downloads\COPIA - SEMINARIO 25\AppSQL\AppSQL\AppSQL\obj\Debug\netstandard2.0\Listados\CRUD\CRUD_productor.xaml.g.cs
+C:\Users\Alumno\Desktop\COPIA - SEMINARIO 25\AppSQL\AppSQL\AppSQL\obj\Debug\netstandard2.0\AppSQL.csproj.AssemblyReference.cache
+C:\Users\Alumno\Desktop\COPIA - SEMINARIO 25\AppSQL\AppSQL\AppSQL\obj\Debug\netstandard2.0\AppSQL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alumno\Desktop\COPIA - SEMINARIO 25\AppSQL\AppSQL\AppSQL\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Alumno\Desktop\COPIA - SEMINARIO 25\AppSQL\AppSQL\AppSQL\obj\Debug\netstandard2.0\Listados\CRUD\CRUD_pedidos.xaml.g.cs
+C:\Users\Alumno\Desktop\COPIA - SEMINARIO 25\AppSQL\AppSQL\AppSQL\obj\Debug\netstandard2.0\Listados\CRUD\CRUD_productor.xaml.g.cs
+C:\Users\Alumno\Desktop\COPIA - SEMINARIO 25\AppSQL\AppSQL\AppSQL\obj\Debug\netstandard2.0\Listados\CRUD\CRUD_productos.xaml.g.cs
+C:\Users\Alumno\Desktop\COPIA - SEMINARIO 25\AppSQL\AppSQL\AppSQL\obj\Debug\netstandard2.0\Listados\CRUD\CRUD_tipos.xaml.g.cs
+C:\Users\Alumno\Desktop\COPIA - SEMINARIO 25\AppSQL\AppSQL\AppSQL\obj\Debug\netstandard2.0\Listados\CRUD\CRUD_vendedores.xaml.g.cs
+C:\Users\Alumno\Desktop\COPIA - SEMINARIO 25\AppSQL\AppSQL\AppSQL\obj\Debug\netstandard2.0\Listados\Listado_Pedido.xaml.g.cs
+C:\Users\Alumno\Desktop\COPIA - SEMINARIO 25\AppSQL\AppSQL\AppSQL\obj\Debug\netstandard2.0\Listados\Listado_Productos.xaml.g.cs
+C:\Users\Alumno\Desktop\COPIA - SEMINARIO 25\AppSQL\AppSQL\AppSQL\obj\Debug\netstandard2.0\Listados\Listado_Tipos.xaml.g.cs
+C:\Users\Alumno\Desktop\COPIA - SEMINARIO 25\AppSQL\AppSQL\AppSQL\obj\Debug\netstandard2.0\Listados\Listado_Vendedores.xaml.g.cs
+C:\Users\Alumno\Desktop\COPIA - SEMINARIO 25\AppSQL\AppSQL\AppSQL\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Alumno\Desktop\COPIA - SEMINARIO 25\AppSQL\AppSQL\AppSQL\obj\Debug\netstandard2.0\AppSQL.AssemblyInfoInputs.cache
+C:\Users\Alumno\Desktop\COPIA - SEMINARIO 25\AppSQL\AppSQL\AppSQL\obj\Debug\netstandard2.0\AppSQL.AssemblyInfo.cs
+C:\Users\Alumno\Desktop\COPIA - SEMINARIO 25\AppSQL\AppSQL\AppSQL\obj\Debug\netstandard2.0\AppSQL.csproj.CoreCompileInputs.cache
+C:\Users\Alumno\Desktop\COPIA - SEMINARIO 25\AppSQL\AppSQL\AppSQL\obj\Debug\netstandard2.0\AppSQL.dll
+C:\Users\Alumno\Desktop\COPIA - SEMINARIO 25\AppSQL\AppSQL\AppSQL\obj\Debug\netstandard2.0\refint\AppSQL.dll
+C:\Users\Alumno\Desktop\COPIA - SEMINARIO 25\AppSQL\AppSQL\AppSQL\obj\Debug\netstandard2.0\AppSQL.pdb
+C:\Users\Alumno\Desktop\COPIA - SEMINARIO 25\AppSQL\AppSQL\AppSQL\bin\Debug\netstandard2.0\AppSQL.deps.json
+C:\Users\Alumno\Desktop\COPIA - SEMINARIO 25\AppSQL\AppSQL\AppSQL\bin\Debug\netstandard2.0\AppSQL.dll
+C:\Users\Alumno\Desktop\COPIA - SEMINARIO 25\AppSQL\AppSQL\AppSQL\bin\Debug\netstandard2.0\ref\AppSQL.dll
+C:\Users\Alumno\Desktop\COPIA - SEMINARIO 25\AppSQL\AppSQL\AppSQL\bin\Debug\netstandard2.0\AppSQL.pdb
+C:\Users\Alumno\Desktop\COPIA - SEMINARIO 25\AppSQL\AppSQL\AppSQL\obj\Debug\netstandard2.0\XamlC.stamp

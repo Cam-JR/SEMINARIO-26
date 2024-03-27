@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppSQL.Listados.CRUD_vendedores">
+    <ContentPage.Content>
+        <StackLayout Spacing="20" Padding="20">
+            <Label Text="Vendedor"
+               Margin="20,20,20,20"
+               HorizontalOptions="Center"
+               FontSize="Medium"
+               TextColor="Black"
+               />
+            
+            <StackLayout>
+                <Label Text="DNI" FontAttributes="Bold" />
+                <Entry x:Name="txtDni" Text="{Binding dni, Mode=TwoWay}" Placeholder="Ingrese dni" />
+                
+                <Label Text="Nombres" FontAttributes="Bold" />
+                <Entry x:Name="txtNom" Text="{Binding nom, Mode=TwoWay}" Placeholder="Ingrese nombre" />
+
+                <Label Text="Apellidos" FontAttributes="Bold" />
+                <Entry x:Name="txtApe" Text="{Binding ape, Mode=TwoWay}" Placeholder="Ingrese apellido" />
+
+                <Label Text="Distrito" FontAttributes="Bold" />
+                <Picker x:Name="pk" Title="Seleccione" SelectedItem="{Binding nom_dis, Mode=TwoWay}"                      
+                        ItemDisplayBinding="{Binding id_dis}"
+                        SelectedIndexChanged="pk_SelectedIndexChanged"
+                    />
+                
+                <Label Text="Correo" FontAttributes="Bold" />
+                <Entry x:Name="txtCorreo" Text="{Binding correo, Mode=TwoWay}" Placeholder="Ingrese nombre" />
+
+            </StackLayout>
+
+
+        </StackLayout>
+    </ContentPage.Content>
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Guardar" Priority="0" Clicked="btnGrabar_Clicked"  Order="Primary" />
+        <ToolbarItem Text="Eliminar" Priority="1" Clicked="btnEliminar_Clicked"  Order="Primary" />
+    </ContentPage.ToolbarItems>
+</ContentPage>

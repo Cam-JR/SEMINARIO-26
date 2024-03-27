@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             Title="Tutorial"
+             x:Class="AppSQL.MainPage">
+
+    <StackLayout>
+        <Frame BackgroundColor="#8C5A11" Padding="24" CornerRadius="0">
+            <Label Text="Aplicación con SQL Server" HorizontalTextAlignment="Center" 
+                   TextColor="White" FontSize="24"/>
+        </Frame>
+        <Label Text="Demostración" Margin="10,0,0,0" FontAttributes="Bold" />
+        <StackLayout Margin="20">
+            
+            <Image Source="cafe"/>
+            <Button x:Name="btnPedidos" Text="Pedidos de venta" TextTransform="None"
+                    CornerRadius="10" FontSize="16"                   
+                    ImageSource="add.png" HeightRequest="60" WidthRequest="200"
+                    HorizontalOptions="Center" 
+                    Clicked="btnPedidos_Clicked"
+                    
+                    />
+            <Button x:Name="btnProductos" Text="Productos" TextTransform="None"
+                    CornerRadius="10" FontSize="16"                   
+                    ImageSource="uva.png" HeightRequest="60" WidthRequest="200"
+                    HorizontalOptions="Center" 
+                    Clicked="btnProductos_Clicked"
+                    />  
+            <Button x:Name="btnTipos" Text="Tipos" TextTransform="None"
+                    CornerRadius="10" FontSize="16"                   
+                    ImageSource="tienda.png" HeightRequest="60" WidthRequest="200"
+                    HorizontalOptions="Center" 
+                    Clicked="btnTipos_Clicked"
+                    />
+            
+            <Button x:Name="btnVendedores" Text="Vendedores" TextTransform="None"
+                    ImageSource="editar.png" HeightRequest="60" WidthRequest="200"
+                    Clicked="btnVendedores_Clicked" FontSize="16"                    
+                                       
+                    HorizontalOptions="Center"
+                    CornerRadius="10"
+                    />
+            
+
+        </StackLayout>
+    </StackLayout>
+
+</ContentPage>

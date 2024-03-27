@@ -1,0 +1,205 @@
+create database cafeteria
+go
+use cafeteria
+go
+
+create table tipos_cafe(
+	id_tipo int primary key identity(1,1),
+	nom_tipo varchar(25) not null,
+	des_tipo varchar(100) not null,
+	img_tipo varchar(500),
+	Estado char(1) not null
+);
+go
+insert into tipos_cafe (nom_tipo, des_tipo, img_tipo, estado) values 
+	('Geisha Delicado', 'Café de exportación','https://rhsoftperu.com/imagenes/cafe/arabica.jpg', 'A');
+insert into tipos_cafe (nom_tipo, des_tipo, img_tipo, estado) values 
+	('Arábica', 'Café de exportación','https://rhsoftperu.com/imagenes/cafe/arabica.jpg', 'A');
+insert into tipos_cafe (nom_tipo, des_tipo, img_tipo, estado) values 
+	('Robusta', 'Café de exportación','https://rhsoftperu.com/imagenes/cafe/arabica.jpg', 'A');
+insert into tipos_cafe (nom_tipo, des_tipo, img_tipo, estado) values 
+	('Libérica', 'Café de exportación','https://rhsoftperu.com/imagenes/cafe/arabica.jpg', 'A');
+insert into tipos_cafe (nom_tipo, des_tipo, img_tipo, estado) values 
+	('Expresso Extra Dark', 'Café de exportación','https://rhsoftperu.com/imagenes/cafe/arabica.jpg', 'A');
+insert into tipos_cafe (nom_tipo, des_tipo, img_tipo, estado) values 
+	('Elegante', 'Café de exportación','https://rhsoftperu.com/imagenes/cafe/arabica.jpg', 'A');
+insert into tipos_cafe (nom_tipo, des_tipo, img_tipo, estado) values 
+	('Espresso Aromático', 'Café de exportación','https://rhsoftperu.com/imagenes/cafe/arabica.jpg', 'A');
+insert into tipos_cafe (nom_tipo, des_tipo, img_tipo, estado) values 
+('Natural Exótico', 'Café de exportación','https://rhsoftperu.com/imagenes/cafe/arabica.jpg', 'A');
+go
+
+create table distritos
+(
+	id_dis int primary key identity(1,1),
+	nom_dis varchar(25) not null
+);
+go
+insert into distritos (nom_dis) values ('VMT');
+insert into distritos (nom_dis) values ('VES');
+insert into distritos (nom_dis) values ('Surquillo');
+insert into distritos (nom_dis) values ('SJM');
+insert into distritos (nom_dis) values ('Miraflores');
+insert into distritos (nom_dis) values ('Lince');
+go
+select * from distritos;
+go
+create table Vendedores
+(
+	id_ven int primary key identity(1,1),
+	dni_ven char(8) not null,
+	nom_ven varchar(25) not null,
+	ape_ven char(25) not null,
+	id_dis int references Distritos,
+	correo_ven varchar(40)
+)
+go
+insert into Vendedores (dni_ven, nom_ven, ape_ven, id_dis, correo_ven) values
+		('12345678','Remigio','Huarcaya Almeyda',1,'rshuarcaya@gmail.com');
+insert into Vendedores (dni_ven, nom_ven, ape_ven, id_dis, correo_ven) values
+		('77345678','Juan','Guillén Li',2,'jguillen@gmail.com');
+insert into Vendedores (dni_ven, nom_ven, ape_ven, id_dis, correo_ven) values
+		('12345699','María','Almeida Rosas',1,'malmeida@hotmail.com');
+go
+
+create Procedure listado_vendedores
+as
+Select v.id_ven, v.dni_ven, v.nom_ven, v.ape_ven, d.nom_dis, v.correo_ven 
+from vendedores v inner join distritos d on v.id_dis = d.id_dis
+go
+
+Create Procedure listado_tipos
+as
+Select * From tipos_cafe;
+go
+
+exec listado_tipos;
+go
+
+create proc sp_ingTipo @nom_tipo varchar(25),
+					   @des_tipo varchar(100),
+					   @img_tipo varchar(500),
+					   @Estado char(1) 
+as
+begin tran
+insert into tipos_cafe (nom_tipo, des_tipo, img_tipo, estado) 
+			values (@nom_tipo, @des_tipo, @img_tipo, @Estado)
+if @@ERROR =0
+	commit tran
+else
+	rollback tran
+go
+
+create proc sp_ingVendedor @dni_ven char(8),
+						@nom_ven varchar(25),
+						@ape_ven char(25),
+						@id_dis int,
+						@correo_ven varchar(40) 
+as
+begin tran
+insert into Vendedores (dni_ven,nom_ven,ape_ven,id_dis,correo_ven) 
+			values (@dni_ven,@nom_ven, @ape_ven,@id_dis,@correo_ven)
+if @@ERROR =0
+	commit tran
+else
+	rollback tran
+go
+
+create table productor
+(
+	id_productor int primary key identity(1,1),
+	nom_productor varchar(25) not null,
+	ubica_cultivo varchar(100) not null,
+	superficie int not null
+);
+go
+
+insert into productor (nom_productor, ubica_cultivo, superficie)values ('Café Villa Rica','Valle de chachamayo',1500);
+insert into productor (nom_productor, ubica_cultivo, superficie)values ('Café Sol del cuzco ','Valle del Inca',2500);
+go
+select * from productor;
+go
+create table productos
+(
+	id_pro int primary key identity(1,1),
+	nom_pro varchar(25) not null,
+	id_tipo int references tipos_cafe,
+	pre_pro smallmoney not null,	
+	id_productor int references productor,
+	img_pro varchar(200),
+	estado char(1) not null
+);
+go
+insert into productos values ('Café A1',1,10,1,null,'A')
+insert into productos values ('Café A2',1,20,1,null,'A')
+insert into productos values ('Café A3',1,20,2,null,'A')
+insert into productos values ('Café A4',1,20,2,null,'A')
+go
+
+create Procedure listado_productos
+as
+SELECT p.id_pro, p.nom_pro, t.nom_tipo,pr.nom_productor,p.pre_pro, p.estado 
+FROM productos p inner join tipos_cafe t
+on p.id_tipo=t.id_tipo
+inner join productor pr on p.id_productor=pr.id_productor;
+go
+
+
+CREATE PROCEDURE sp_ingProductos
+    @nom_pro VARCHAR(25),
+    @id_tipo INT,
+    @pre_pro SMALLMONEY,
+    @id_productor INT,
+    @img_pro VARCHAR(200) = NULL,
+    @estado CHAR(1)
+AS
+begin tran
+insert into productos (nom_pro, id_tipo, pre_pro, id_productor, img_pro, estado) 
+			values (@nom_pro, @id_tipo, @pre_pro, @id_productor, @img_pro, @estado)
+if @@ERROR =0
+	commit tran
+else
+	rollback tran
+go
+
+------------------------------------------------
+--           PEDIDOS DE VENTA
+------------------------------------------------
+create table pedidos
+(
+	id_ped int primary key identity(1,1),
+	fec_ped date not null,
+	id_ven int references vendedores,
+	tot_ped decimal(7,2) not null,
+	est_ped char(1) not null
+);
+
+create table detalle
+(
+	id_det int primary key identity(1,1),
+	id_ped int references pedidos,
+	id_pro int references productos,
+	can_pro int not null,
+	imp_pro decimal(7,2) not null
+);
+
+
+	
+
+
+ INSERT INTO pedidos (fec_ped, id_ven, tot_ped, est_ped) VALUES
+('2024-03-25', 1, 10500.00, 'A'),
+('2024-03-24', 2, 8500.50, 'P'),
+('2024-03-23', 3, 12200.00, 'C'),
+('2024-03-22', 4, 4300.75, 'A');
+
+
+CREATE PROCEDURE sum_total
+as
+
+Select sum(tot_ped) as suma from pedidos;
+
+drop procedure sum_total
+Sum_total
+
+

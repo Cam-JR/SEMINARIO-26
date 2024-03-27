@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppSQL.Listados.Listado_Pedido">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="White" Margin="20" >
+
+            <Label Text="Lista de Pedidos" 
+               FontSize="18"
+               HorizontalOptions="Center"
+               />
+            <Image Source="cafe.png" />
+
+            <Label Text="TOTALES"></Label>
+            <Frame CornerRadius="10"
+                Padding="20,10"
+                BackgroundColor="White"
+                HasShadow="True"
+                Margin="10,5"
+                >
+                <Label x:Name="totales" Text="{Binding totales}" />
+
+            </Frame>
+
+
+            <ListView x:Name="lvPedido" ItemSelected="lvPedido_ItemSelected" HasUnevenRows="True" 
+                  Margin="0,20,0,10" 
+                  BackgroundColor="Beige">
+                
+              
+                
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell >
+                            <StackLayout VerticalOptions="FillAndExpand" 
+                                     HorizontalOptions="FillAndExpand" Padding="20" Spacing="20">
+                                <StackLayout Orientation="Horizontal" Spacing="20" >
+                                    
+                                    <StackLayout Spacing="10">
+                                        <Grid>
+                                            <Grid.ColumnDefinitions>
+                                                <ColumnDefinition Width="*" ></ColumnDefinition>
+                                                <ColumnDefinition Width="2*"></ColumnDefinition>
+                                            </Grid.ColumnDefinitions>
+
+                                            <Grid.RowDefinitions>
+                                                <RowDefinition></RowDefinition>
+                                                <RowDefinition></RowDefinition>
+                                                <RowDefinition></RowDefinition>
+                                                <RowDefinition></RowDefinition>
+                                                <RowDefinition></RowDefinition>
+                                            </Grid.RowDefinitions>
+
+                                            <Label Text="Id" Grid.Row="0" Grid.Column="0"></Label>
+                                            <Label Text="{Binding id_ped}" Grid.Row="0" Grid.Column="1"  TextColor="#8C5A11" FontSize="14"/>
+
+                                            <Label Text="Fecha" Grid.Row="1" Grid.Column="0"></Label>
+                                            <Label Text="{Binding fec_ped}" Grid.Row="1" Grid.Column="1" TextColor="#8C5A11" FontSize="14"/>
+
+                                            <Label Text="Venta:" Grid.Row="2" Grid.Column="0"></Label>
+                                            <Label Text="{Binding nom_ven}" Grid.Row="2" Grid.Column="1" TextColor="#8C5A11" FontSize="14"/>
+
+                                            <Label Text="Vendedor:" Grid.Row="3" Grid.Column="0"></Label>
+                                            <Label Text="{Binding tot_ped}" Grid.Row="3" Grid.Column="1" TextColor="#8C5A11" FontSize="14"/>
+
+                                            <Label Text="Productor:" Grid.Row="4" Grid.Column="0"></Label>
+                                            <Label Text="{Binding est_ped}" Grid.Row="4" Grid.Column="1 " TextColor="#8C5A11" FontSize="14"/>
+
+                                            <!--  <Label Text="{Binding img_pro}" TextColor="#8C5A11" FontSize="14"/> -->
+                                            <Label Text="Estado:" Grid.Row="5"  Grid.Column="0"></Label>
+                                            <Label Text="{Binding est_ped}" Grid.Row="5" Grid.Column="1" TextColor="#8C5A11" FontSize="14"/>
+                                        </Grid>
+
+                                    </StackLayout>
+                                </StackLayout>
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+
+        </StackLayout>
+    </ContentPage.Content>
+    
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Nuevo" Priority="0" Clicked="btnNuevo_Clicked"  Order="Primary" />
+    </ContentPage.ToolbarItems>
+</ContentPage>

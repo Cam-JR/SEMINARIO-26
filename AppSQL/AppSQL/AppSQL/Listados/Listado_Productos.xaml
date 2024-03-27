@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppSQL.Listados.Listado_Productos"
+               Title="Listado de Productos">
+    
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="White" Margin="20">
+            
+            <Label Text="Productos" 
+                   FontSize="18"
+                   HorizontalOptions="Center"/>
+            <Image Source="cafe.png" />
+            
+            <ListView x:Name="lvProductos" ItemSelected="lvProductos_ItemSelected" HasUnevenRows="True" 
+                      Margin="0,20,0,10" 
+                      BackgroundColor="Beige">
+                
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <StackLayout VerticalOptions="FillAndExpand" 
+                                         HorizontalOptions="FillAndExpand" 
+                                         Padding="20" 
+                                         Spacing="20">
+                                <StackLayout Orientation="Horizontal" Spacing="20">
+                                    <Image Source="{Binding img_pro}" HeightRequest="60" WidthRequest="60"
+                                            Aspect="AspectFit"
+                                            HorizontalOptions="Start"/>
+                                    <StackLayout Spacing="10">
+
+                                        <Grid>
+                                            <Grid.ColumnDefinitions>
+                                                <ColumnDefinition Width="*" ></ColumnDefinition>
+                                                <ColumnDefinition Width="2*"></ColumnDefinition>
+                                            </Grid.ColumnDefinitions>
+                                            
+                                            <Grid.RowDefinitions>
+                                                <RowDefinition></RowDefinition>
+                                                <RowDefinition></RowDefinition>
+                                                <RowDefinition></RowDefinition>
+                                                <RowDefinition></RowDefinition>
+                                                <RowDefinition></RowDefinition>
+                                            </Grid.RowDefinitions>
+
+
+                                            <Label Text="Id" Grid.Row="0" Grid.Column="0"></Label>
+                                            <Label Text="{Binding id}" Grid.Row="0" Grid.Column="1" TextColor="#8C5A11"  FontSize="14"/>
+
+                                            <Label Text="Nombre:" Grid.Row="1" Grid.Column="0"></Label>
+                                            <Label Text="{Binding nom}" Grid.Row="1" Grid.Column="1" TextColor="#8C5A11" FontSize="14"/>
+
+                                            <Label Text="Tipo:" Grid.Row="2" Grid.Column="0"></Label>
+                                            <Label Text="{Binding nom_tipo}" Grid.Row="2" Grid.Column="1" TextColor="#8C5A11" FontSize="14"/>
+
+                                            <Label Text="Precio:" Grid.Row="3" Grid.Column="0"></Label>
+                                            <Label Text="{Binding pre_pro, StringFormat='{0:C}'}"  Grid.Row="3" Grid.Column="1" TextColor="#8C5A11" FontSize="14"/>
+
+                                            <Label Text="Productor:" Grid.Row="4" Grid.Column="0"></Label>
+                                            <Label Text="{Binding nom_productor}" Grid.Row="4" Grid.Column="1" TextColor="#8C5A11" FontSize="14"/>
+                                            
+                                            <!--  <Label Text="{Binding img_pro}" TextColor="#8C5A11" FontSize="14"/> -->
+                                            <Label Text="Estado:" Grid.Row="5"  Grid.Column="0"></Label>
+                                            <Label Text="{Binding estado}" Grid.Row="5" Grid.Column="1" TextColor="#8C5A11" FontSize="14"/>
+                                        </Grid>
+                                    </StackLayout>
+                                </StackLayout>
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+    </ContentPage.Content> 
+    
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Nuevo" Priority="0" Clicked="btnNuevo_Clicked"  Order="Primary" /> 
+    </ContentPage.ToolbarItems>
+    
+</ContentPage>
